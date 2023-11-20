@@ -1,0 +1,50 @@
+/******CSS PAGINA PRINCIPAL****/
+
+
+/******MAIN*******/
+
+main #proddestacados{
+						border-bottom: solid black 1px;
+						margin-bottom: 5px;}
+main #otrosprod{
+				margin-bottom: 5px;}
+
+main #proddestacados article a{
+								color: blue;}
+
+main #otrosprod article a{
+						  color: purple;}
+
+/*****ARTICLE*****/
+
+main section article{
+					 padding: 10px;
+					 margin: 20px;
+					 display: inline-block;
+					 border-right:1px solid darkgray;
+					 border-bottom:1px solid darkgray; 
+					 background-color: aliceblue;
+					 width: 25%;
+					 height: auto;
+					 transition: 0.5s;}
+
+main section article p{
+						text-align: justify;
+						margin: 10px}
+
+article:hover{
+	transform: 
+		
+		scale3d(1.1,1.1,0.3)
+		
+		
+}
+
+
+/*******TAMAÑO IMAGENES ARTICLE****/
+
+article img{height: 200px;
+			width: auto;}
+
+article #cinturon{width: 250px;
+					height: 200px;}

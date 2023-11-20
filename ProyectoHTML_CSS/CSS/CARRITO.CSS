@@ -1,0 +1,135 @@
+
+
+p{font-family: sans-serif;}
+
+aside nav li{
+	width: 200px;
+}
+
+section{
+		background-color: white;
+		margin: 20px}
+
+/****CABECERA SECTION****/
+section #Cestayprecio{	padding: 10px;
+						width: 90%;
+						}
+
+
+#pprecio,#h2Cesta{
+					display: inline-block;}
+
+#pprecio{
+		float:right;
+		margin-top: 40px}
+
+
+/***ARTICULOS DE LA CESTA*****/
+
+
+article{
+		border-bottom: solid black 1px;
+		display: block;
+		}
+
+#Multiestacion{
+				border-top: solid black 1px;}
+
+article img{
+			height: 200px;
+			width: auto;
+			padding: 10px;}
+
+#descripcionprod{
+				width: 50px;
+				max-height:100px; }
+
+
+/****PRECIO DEL ARTÍCULO*****/
+
+.divprecio{
+			float: right;
+			margin-right: 60px;
+			display: inline-block;}
+
+.precioprod{
+			font-weight: bold;
+			color: black;
+			font-size:20px}
+
+.precioprod,.precioprodantes{
+							  display: inline-block;}
+
+.precioprodantes{
+				 text-decoration: line-through;
+				 margin-left: 5px}
+
+/* INFO DE CADA ARTÍCULO*/
+
+article img,a,div{
+					display: inline-block;
+					vertical-align: top;}
+
+/*ALINEAR VERTICALMENTE NOMBRE DE ARTÍCULO*/
+.nombreProd{
+			display: inline-block;}
+
+
+/**ES UN REGALO**/
+
+label{color: black;}
+
+/**SELECCIONAR CANTIDAD, ELIMINAR, GUARDAR PARA MÁS TARDE**/
+
+.cantidad,.Opciones{
+					display: inline-block;}
+
+.cantidad{
+			border-radius: 10px;
+			cursor: pointer;}
+
+.cantidad:hover{
+				background-color: #82F5EF}
+
+.Opciones{
+			border-left: solid black 1px;
+			height: 20px;
+			margin-left: 20px;
+			cursor: pointer;
+			padding-left: 5px;}
+
+.Opciones:hover{
+				text-decoration: underline;}
+
+
+/** PIE DEL SECTION **/
+
+#prectotal{
+			margin-left: 70%;
+			margin-bottom: 10px;} 
+
+#prectotal button,h2{
+					  display: flex;
+  					  align-items: center;
+  					  justify-content: center;}
+
+#btnrealizarCompra{
+					width: 200px;
+					height:30px ;
+					background-color:#CAE330 ;
+					color: black;
+					border-radius: 60px ;
+					border: none;
+					cursor: pointer;
+					}
+
+#btnrealizarCompra:hover{
+						 border: solid 1px;
+						 background-color: #B5CB2B;
+						 }
+
+
+
+footer{
+		margin-top: 80px;}
+

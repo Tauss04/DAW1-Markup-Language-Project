@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="Ivan Taus Ruiz"/>	
+		<meta name="description" content="web gimnasio">
+		<meta name="keywords" content="formulario, articulo"></meta>
+		<meta http-equiv="expires" content="600"></meta>
+		<meta name="copyright" content="EasyFit"></meta>
+		<meta name="robots" content="index"></meta>
+		<meta name="robots" content="follow"></meta>
+		<meta name="rating" content="adult"></meta>
+		<meta name='subject' content="Gymnastics"></meta>
+		<meta name='language' content='ES'></meta>
+		<link rel="icon" type="image/png" href="..\imagenes\logoinvertido.png">
+		<title>EasyFit</title>
+		<link rel="stylesheet" type="text/css" href="..\CSS\COMUN.CSS">
+		<link rel="stylesheet" type="text/css" href="..\CSS\FORMULARIO.CSS">
+		<script defer type="text/javascript" src="./../LOGICA/formulario.js"></script>
+	<title></title>
+</head>
+<body>
+	<header>
+			<div class="imglogo">
+				<a class="imglogo" href="..\INDEX.html">
+					<img src="..\imagenes\logo.png" class="imglogo"></img>
+				</a>
+			</div>
+			<div id="formbusqueda">
+				<form>
+					<input id="cuadrobusqueda" type="busqueda" placeholder="Busca tus productos"></input>
+					<input type="image" src="..\imagenes\lupa.png" id="lupa"></input>
+				</form>
+			</div>
+			<div id="botonesinicio">
+				<a href="https://www.google.es/"><button class="btniniciar">Sign Up</button></a>
+				<a href="CARRITO.html"><button class="btniniciar">Carrito</button></a>
+			</div>
+	</header>
+	<main>	
+		<h2>Sube un articulo</h2>
+		<form action="" method="post">
+			<fieldset>
+				<legend>Información del artículo</legend>
+				<label for="nombre">Artículo: </label>
+				<input id="nombre" type="text" required="required" minlength="5" maxlength="100"></input>
+				</br>
+				<label for="descripcion">Descripción: </label>
+				<div>
+					<textarea id="descripcion" required="required"></textarea>
+				</div>
+			</fieldset>
+			<fieldset>
+				<legend>Clasificación del artículo</legend>
+				<label for="destacado">Marcar como destacado</label>
+				<input type="checkbox" id="destacado">
+				</br>
+				<label for="suple">Suplementación</label>
+				<input type="radio" id="suple" name="tipo" onclick="tipo()" required="required">
+				</br>
+				<label for="material">Material</label>
+				<input type="radio" id="material" name="tipo" onclick="tipo()" required="required">
+				</br>
+				<label for="maquinaria">Maquinaria</label>
+				<input id="maquinaria" type="radio" name="tipo" onclick="tipo()" required="required"></input>
+				</br>
+				<label for="subcategoria">Subcategoria</label>
+				<select id="subcategoria">
+					<option>PreWorkout</option>
+					<option>MassGain</option>
+					<option>FatBurner</option>
+					<option>Vitamins</option>
+					<option>CreatinCreapure</option>	
+				</select>
+			</fieldset>
+			<button id="btnEnviar">Enviar</button>
+			<button type="reset">Limpiar datos</button>
+		</form>
+		
+	</main>
+	<aside>
+			<nav>
+				<ul>
+					<a href=".\..\INDEX.html"><li >Index</li></a>
+					<a href="paginas\PAGFORMULARIO.html"><li class="actual">Formulario</li></a>
+					<a href=""><li>Material</li></a>
+					<a href=""><li>Suplementación</li></a>
+					<a href=""><li>Maquinaria</li></a>
+				</ul>
+			</nav>
+		</aside>	
+	<footer>
+			<address id="datosTienda">
+				<h3>Datos Tienda</h3>
+				<p>C/Larga 22, CP/50500</p>
+				<p>Tlfn: 692441384</p>
+			</address>
+			<div id="formulario">
+				<form>
+					<h3>Suscribete</h3>
+					<label for="nombre">Nombre : </label>
+					<input type="text" id="nombre">
+					</br>
+					</br>
+					<label for="mail">CorreoE : </label>
+					<input type="mail" id="mail">
+					</br>
+					</br>
+					<button type="submit">Enviar</button>
+				</form>
+			</div>
+			<div id="redes">
+				<h3>Nuestras redes</h3>
+				<a href=""><img src="..\imagenes\instagram.png"></img>@EasyFit</a>
+				<a href=""><img src="..\imagenes\facebook.png"></img> @EasyFit</a>
+				<a href=""></a>	
+			</div>
+		</footer>
+</body>
+</html>

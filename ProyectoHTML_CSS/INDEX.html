@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"></meta>
+		<meta name="author" content="Ivan Taus Ruiz"/>	
+		<meta name="description" content="web gimnasio">
+		<meta name="keywords" content="gimnasio, fitness, ejercicio, deporte, EasyFit, easy"></meta>
+		<meta http-equiv="expires" content="600"></meta>
+		<meta name="copyright" content="EasyFit"></meta>
+		<meta name="robots" content="index"></meta>
+		<meta name="robots" content="follow"></meta>
+		<meta name="rating" content="adult"></meta>
+		<meta name='subject' content="Gymnastics"></meta>
+		<meta name='language' content='ES'></meta>
+		<link rel="icon" type="image/png" href="imagenes\logoinvertido.png">
+		<title>EasyFit</title>
+		<link rel="stylesheet" type="text/css" href="CSS\ESTILO.CSS">
+		<link rel="stylesheet" type="text/css" href="CSS\COMUN.CSS">
+		<script defer type="text/javascript" src="LOGICA\INDEX.js"></script>
+	</head>
+	<body>
+		<header>
+			<div class="imglogo">
+				<a class="imglogo" href="INDEX.html">
+					<img src="imagenes\logo.png" class="imglogo"></img>
+				</a>
+			</div>
+			<div id="formbusqueda">
+				<form>
+					<input type="busqueda" placeholder="Busca tus productos" id="cuadrobusqueda"></input>
+					<input type="image" src="imagenes\lupa.png" id="lupa"></input>
+				</form>
+			</div>
+			<div id="botonesinicio">
+				<button class="btniniciar" id="btnLogIn">Log in</button>
+				<a href="paginas\CARRITO.html"><button class="btniniciar">Carrito</button></a>
+				<p id="nombreLogIn"></p>
+			</div>
+		</header>
+		<aside>
+			<nav>
+				<ul>
+					<a href=""><li class="actual">Index</li></a>
+					<a href="paginas\PAGFORMULARIO.html"><li>Formulario</li></a>
+					<a href=""><li>Material</li></a>
+					<a href=""><li>Suplementación</li></a>
+					<a href=""><li>Maquinaria</li></a>
+				</ul>
+			</nav>
+		</aside>
+
+		<main>
+		<section id="proddestacados">
+			<article class="productos">				
+					<a href="">
+						<img src="imagenes\maquinaria.png"></img>
+					</a>
+					<h2 class="nombreProd">Multi Estación</h2>	
+					<p class="descripcionprod">Multi estación completa, 5 en 1, entrena todos los grupos músculares</p>
+					<a href="">Caracteristicas del articulo</a>
+			</article>
+			<article class="productos">				
+					<a href="">
+						<img src="imagenes\bandas.png"></img>
+					</a>
+					<h2 class="nombreProd">Bandas Elasticas</h2>	
+					<p class="descripcionprod">Bandas Elasticas para recuperacion de lesiones, calentar o fortalecer</p>
+					<a href="">Caracteristicas del articulo</a>
+			</article>
+			<article class="productos">				
+					<a href="">
+						<img src="imagenes\mancuernas.png"></img>
+					</a>
+					<h2 class="nombreProd">Kit Mancuernas</h2>	
+					<p class="descripcionprod">Maletin con pesas de acero de hasta 20 kg maximo para entrenar en cualquier lugar</p>
+					<a href="">Caracteristicas del articulo</a>
+			</article>			
+		</section>
+		<section id="otrosprod">
+			<article class="productos">				
+					<a href="">
+						<img src="imagenes\creatina.png"></img>
+					</a>
+					<h2 class="nombreProd">Creatina</h2>	
+					<p class="descripcionprod">Creatina monohidrato 250gr para mejorar tu rendimiento </p>
+					<a href="">Caracteristicas del articulo</a>
+			</article>
+			<article class="productos">				
+					<a href="">
+						<img src="imagenes\preworkout.png"></img>
+					</a>
+					<h2 class="rojo">PreWorkout</h2>	
+					<p><span class="subrayado">Aumenta tu energia durante el entrenamiento</p>
+					<a href="">Caracteristicas del articulo</a>
+			</article>
+			<article class="productos">				
+					<a href="">
+						<img id="cinturon" src="imagenes\cinturon.png"></img>
+					</a>
+					<h2 class="nombreProd">Cinturón Lumbar</h2>	
+					<p class="descripcionprod">Cinturon lumbar de cuero con sistema de palanca</p>
+					<a href="">Caracteristicas del articulo</a>
+			</article>			
+		</section>
+		</main>
+		
+		<footer>
+			<address id="datosTienda">
+				<h3>Datos Tienda</h3>
+				<p>C/Larga 22, CP/50500</p>
+				<p>Tlfn: 692441384</p>
+			</address>
+			<div id="formulario">
+				<form>
+					<h3>Suscribete</h3>
+					<label for="nombre">Nombre : </label>
+					<input type="text" id="nombre">
+					</br>
+					</br>
+					<label for="mail">CorreoE : </label>
+					<input type="mail" id="mail">
+					</br>
+					</br>
+					<button type="submit">Enviar</button>
+				</form>
+			</div>
+			<div id="redes">
+				<h3>Nuestras redes</h3>
+				<a href=""><img src="imagenes\instagram.png"></img>@EasyFit</a>
+				<a href=""><img src="imagenes\facebook.png"></img> @EasyFit</a>
+				<a href=""></a>	
+			</div>
+		</footer>
+	</body>
+
+</html>
